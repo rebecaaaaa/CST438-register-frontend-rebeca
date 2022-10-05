@@ -18,8 +18,7 @@ function App() {
         </Toolbar>
       </AppBar>
       <BrowserRouter>
-        <Link to="/semester">Course Schedules</Link>{' '}
-        <Link to="/addstudent">Add a New Student</Link>{' '}
+        <Link to="/semester">Home</Link>{' '}
       <Switch>
         <Route path ='/semester' component={Semester} />
         <Route path='/schedule' component={SchedList} />
