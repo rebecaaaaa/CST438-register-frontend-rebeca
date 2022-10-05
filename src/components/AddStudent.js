@@ -120,7 +120,6 @@ class AddStudent extends Component {
 					defaultValue={0}
 				>
 				<MenuItem value={0}>0</MenuItem>
-				<MenuItem value={1}>1</MenuItem>
 				</Select>
 				</Grid>
 				<Grid item xs={5}>
