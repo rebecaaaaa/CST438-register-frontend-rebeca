@@ -123,7 +123,7 @@ class AddStudent extends Component {
 				</Select>
 				</Grid>
 				<Grid item xs={5}>
-				<Button  
+				<Button id = "addStudentID2" 
 					variant="outlined" color="primary" style={{margin: 50}}
 					onClick={this.handleAddStudent}
 					>
